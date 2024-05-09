@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hotel Website</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+
+
+<body style="background-image: url(Assets/6.jpg); background-size: cover;">
+    <header class="navigation" style="background-image: url(Assets/4.jpg); background-size: cover; border-radius: 6px;">
+        <div class="navigation-icon"></div>
+
+        <nav>
+            <button type ="button" onclick="HomeInfo()">Home</button>
+            <button type="button" onclick="AboutUsInfo()">About Us</button>
+            <button type="button" onclick="CallUsInfo()">Call Us</button>
+        </nav>
+    </header>
+    <hr />
+
+    <article class="content-container">
+        <header>
+            <h1>Nurhoiriza Hotel</h1>
+            <h3>Please Login To Your Account</h3>
+        </header>
+
+        <section class="core-content">
+            <div class="core-item flex flex-row" style="border-radius: 6px;">
+                <div class="banner-item" style="background-image: url(Assets/1.jpg);"> </div>
+                <div class="banner-item" style="background-image: url(Assets/2.jpg);"> </div>
+                <div class="banner-item" style="background-image: url(Assets/3.jpg);"> </div>
+            </div>
+            <div class="core-item item-right">
+                <header>
+                    <h3>Your Account</h3>
+                </header>
+
+                <form class="item-form">
+                    <div>
+                        <label>Username : </label><input type="text" id="form-username" placeholder="Masukkan Username anda.." required />
+                    </div>
+                     <!-- <button type="button" id ="send-btn">Send Form</button>  -->
+
+                    <div>
+                        <label>Password : </label><input type="password" id="form-password" placeholder="Masukkan Password anda.." required />
+                    </div>
+
+                    <button type="button" id ="send-password">Send Form</button>
+
+                </form>
+                
+            </div>
+
+        </section>
+
+
+        <section class="seperate-icon" style="background-image: url(Assets/5.jpg); background-size: cover; border-radius: 6px;">
+            <h3>THANK YOU FOR YOUR VISIT!!</h3>
+         </section>
+
+    </article>
     
+    <script src="js/script.js"></script>
+
 </body>
 </html>

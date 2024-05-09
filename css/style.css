@@ -1,0 +1,113 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navigation>nav>button{
+    height: 30px;
+    border: 1px solid saddlebrown;
+    background-color: floralwhite;
+    border-radius: 6px
+}
+
+.navigation-icon{
+    background-image: url(../Assets/Logo.jpg);
+    width: 33px;
+    height: 33px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.content-container>header{
+    text-align: center;
+}
+
+.core-content{
+    display: flex;
+}
+
+@media only screen and (max-width : 480px) {
+    .core-content{
+        flex-direction: column;
+        padding-right: 30px;
+    }
+
+
+}
+
+.core-item{
+   
+    width: 100%;
+    border: 0px solid rosybrown;
+    margin: 13px;
+    background-color: antiquewhite;
+}
+
+.banner-item {
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item-right{
+    background-color: floralwhite;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.core-item>header>h3{
+    text-align: center;
+}
+
+
+
+.item-form>div{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.item-form>input{
+    height: 23px;
+    width: 60%;
+    margin-left: 5px;
+    border: 1px solid saddlebrown;
+    border-radius: 4px;
+}
+
+.seperate-icon{
+    background-color: antiquewhite;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+ #send-btn{
+    height: 30px;
+    border: 1px solid saddlebrown;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px
+} 
+
+#send-password{
+    height: 30px;
+    border: 1px solid saddlebrown;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
